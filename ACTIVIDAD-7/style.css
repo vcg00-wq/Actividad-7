@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: #41413e;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta {
+    width: 100%;
+    min-height: calc(100vh - 20px);
+    background-color: #eeeeeb;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.cabecera {
+    height: 53vh;
+    background-image: url("IMG/El Hobbit - img/hobbit_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+}
+
+.titulo {
+    position: absolute;
+    left: 36%;
+    bottom: 8%;
+    color: white;
+}
+
+h1 {
+    font-size: 5.5vh;
+    margin: 0;
+}
+
+h1 span {
+    font-size: 2vh;
+    background-color: #c5b358;
+    color: #625a27;
+    border-radius: 5px;
+    padding: 3px 5px;
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 3.5vh;
+    font-weight: normal;
+    margin: 5px 0;
+    color: #cccccc;
+}
+
+.likes {
+    font-size: 2vh;
+    margin-left: 5%;
+}
+
+.likes img {
+    width: 15px;
+}
+
+.contenido {
+    display: flex;
+    padding: 4vh 4%;
+}
+
+.izquierda {
+    width: 30%;
+    text-align: center;
+}
+
+.portada {
+    width: 85%;
+    height: 43vh;
+    object-fit: contain;
+    margin-top: -28vh;
+    position: relative;
+    filter: drop-shadow(2px 3px 3px gray);
+}
+
+.generos {
+    margin-top: 3vh;
+}
+
+.generos span {
+    display: inline-block;
+    background-color: white;
+    color: #aaaaaa;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 4px;
+    font-size: 2vh;
+}
+
+.derecha {
+    width: 70%;
+    padding-left: 4%;
+    color: #aaaaaa;
+    font-size: 2.4vh;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.derecha p {
+    margin: 0;
+}
+
+a {
+    color: #6489bc;
+    text-decoration: none;
+}
+
+.actores {
+    margin-top: 3vh;
+}
+
+.actores img {
+    width: 8vh;
+    height: 8vh;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-right: 5px;
+    object-fit: cover;
+}
